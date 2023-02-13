@@ -23,11 +23,11 @@ const displayEntries = () => {
       return row;
     }).join("\n");
   const table = `<table class='table-auto w-full'><tr>
-    <th class='px-4 py-2 '> name </th>
-    <th class='px-4 py-2 '> email </th>
-    <th class='px-4 py-2 '> password </th>
-    <th class='px-4 py-2 '> dob </th>
-    <th class='px-4 py-2 '> acceptTerms </th>
+    <th class='px-4 py-2 '> Name </th>
+    <th class='px-4 py-2 '> Email </th>
+    <th class='px-4 py-2 '> Password </th>
+    <th class='px-4 py-2 '> Dob </th>
+    <th class='px-4 py-2 '> Accepted terms </th>
     </tr>${tableEntries}</table>`;
   let details = document.getElementById("user-entries");
   details.innerHTML =table;
